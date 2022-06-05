@@ -1,0 +1,57 @@
+*{
+   margin: 0px; 
+   padding: 0px;
+}
+
+body{
+     backgroud: lightgray;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+        
+    height: 10xp;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+nav{
+   backgroud: blue;
+   height: 50px;
+   border-botton: 3px solid black;
+        color: white;
+}
+
+nav ul li{
+     float: left;
+     list-sytle: none; 
+     margin: 19px;
+    color: white;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#container{
+    margin: 0px;
+    border-bottom: 100px aquamarine ;
+    text-align: left, center;
+    height: 18px;
+    width: 100%;
+    color: black;
+
+}
+
+footer{
+    background: darkblue;
+    color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
