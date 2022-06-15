@@ -6,34 +6,79 @@
     <title>Blog Uniformes DanMar</title>	
     <link rel="stylesheet" href="index.css" />
 </head>	
-<body>
+<body text="white">
+     <div id="encabezado">
+       <p>Uniformes Escolares   Dudas generales  Whatsapp 444 167 2323 | Pagina de facebook DanMar Fabrica de Uniformes</p>
+        </div>
 <header>
     <br>
-       <p>Uniformes Escolares    Dudas generales Whatsapp 444 167 2323 | Pagina de facebook DanMar Fabrica de Uniformes</p>
-        
-
         <nav>
             <ul id="Menu">
                 <li><a href="https://shiroyagami.github.io/Uniformes-DanMar/" >Inicio</a></li>
                 <li><a href="Servicios.html">Productos</a>
                     <li><a href="Blog.html">Blog</a></li>
-                        <li><a href="Proyecto.html#Sobrenosotros">Sobre nosotro</a></li>
+                        <li><a href="Proyecto.html#Sobrenosotros">Sobre nosotros</a></li>
+                        <li><a href="Index.html#Acerca">Acerca de</a></li>
                         <li><a href="Equipo.html">Equipo</a></li>
-                </li>
-                <li><a href="">Tutoriales</a></li>
                 <li><a href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
         <div class="clearfix"></div>
     </header>
+    <div id="color">
     <br>
       <center> <h1>Uniformes DanMar</center></h1>
-      <br><br><br><br><br><br><br>
-       <p>
-         <center>  <h1>Estamos trabajando en esta seccion por favor espere un poco mas</center></h1>
+      <br><br><br><br>
+       
+       <div id="contat">
 
-       </p>
+        <form action="" method="POST" id="form">
+        <div class="form">
+            <br><br>
+            <center><h1>Contáctanos</center></h1>
+            <br><br>
+            <center>
+                <input type="hidden" name="id" id="id" ><span class="barra"></span>
+            <div class="grupo">
+                <label for="Nombre">*Nombre</label>
+                <input type="text" name="name" id="name" size="30" required pattern="[a-z]{1,40}" placeholder="solo acepta letras mayusculas"><span class="barra"></span>
+            </div>
+            <br>
+            <div class="grupo"> 
+                <label for="Email">*Email</label>
+                 <input type="email" name="email" size="30" id="email" required placeholder="por favor ingrese un correo electronico valido"><span class="barra"></span>
+            </div>
+            <br>
+            <div class="grupo">
+                <label for="Telefono">Telefono</label>
+                <input type="text" name="telefono" id="telefono" size="18"  pattern="[0-10]{10}"  placeholder="834-266-8631" ><span class="barra"></span>
+            </div>
+            <br>
+            <div class="grupo">
+                <label for="Asunto">Asunto</label>
+                <input type="textArea" name="asunto" size="25" id="asunto" placeholder="Duda sobre los metodos de pago" ><span class="barra"></span>
+            </div>
+            <br>
+            <div class="input-field col 16">
+                <label for="Comentarios">Comentarios</label>
+                <textarea id="comentarios" class="materialize-textarea"></textarea>
+            </div>
+            <br>
+            <button type="submit" type="clearfix">Enviar</button>
+            </center>
+            <br><br>
+             <p class="warnings" id="warnings"></p>
+        </div>
 
+    </form>
+           </div>
+
+       <br><br>
+       </div>
+    <footer>
+    © <span>2022</span> UNIFORMES-DANMAR TODOS LOS DERECHOS RESERVADOS
+    </footer>
 
     </body>
+    <script src="Val.js"></script>
 </html>
