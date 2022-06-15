@@ -36,7 +36,7 @@ nav ul li{
 
 .clearfix{
     clear:both;
-};+
+};
 
 #container{
     margin: 0px;
@@ -54,4 +54,22 @@ footer{
     text-align: center;
     height: 30px;
     line-height: 30px;
+}
+#encabezado{
+    background: darkblue;
+    color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#contat{
+    width: 70%;
+  margin: 0px auto;
+  border: 25px solid  darkblue;
+}
+
+#color{
+    background: #fc97f5;
+
 }
